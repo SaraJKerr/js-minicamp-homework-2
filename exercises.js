@@ -3,6 +3,8 @@
 function getBiggest(x, y) {
   //x and y are integers.  Return the larger integer
   //if they are the same return either one
+  var result = Math.max(x,y);
+  return result;
 }
 
 function greeting(language) {
